@@ -14,14 +14,13 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     super.initState();
-    // Timer(Duration(seconds: 5), =>
-    //     Navigator.pushReplacement(context,MaterialPageRoute(builder: (context)
-    // =>
-    //     Intro_Screen(),
-    // )
-    // )
-    // );
 
+    Navigator.pushReplacement<void, void>(
+      context,
+      MaterialPageRoute<void>(
+        builder: (BuildContext context) => Intro_Screen(),
+      ),
+    );
   }
 
   @override

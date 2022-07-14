@@ -72,6 +72,7 @@ class _Login_ScreenState extends State<Login_Screen> {
                               ElevatedButton.styleFrom(primary: Colors.indigo),
                           onPressed: () async {
                             share().createSHRP(email.text, pass.text);
+                            Navigator.pushNamed(context, 'home');
                           },
                           child: Text(
                             "Sign up",
