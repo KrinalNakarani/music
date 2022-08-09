@@ -41,9 +41,10 @@ class _Audio_ListState extends State<Audio_List> {
     "assets/music/Firecracker.mp3",
     "assets/music/Dholida.mp3",
     "assets/music/Toofan.mp3",
-    "assets/music/Mitra_re.mp3",
+    "assets/music/Mitra_Re.mp3",
     "assets/music/Naacho.mp3",
     "assets/music/Srivalli.mp3",
+    "assets/music/Atrangi.mp3",
     "assets/music/Jollyo.mp3"
   ];
 

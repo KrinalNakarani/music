@@ -18,7 +18,7 @@ class _songsState extends State<songs> {
   Duration cdu = Duration(seconds: 0);
   Icon iconmu = Icon(
     Icons.play_circle,
-    size: 40,
+    size: 50,
   );
   Imagelist? m1;
 
@@ -112,7 +112,7 @@ class _songsState extends State<songs> {
               ),
               Center(
                 child: Container(
-                  height: 600,
+                  height: 650,
                   width: 300,
                   alignment: Alignment.bottomCenter,
                   child: PlayerBuilder.currentPosition(
@@ -155,7 +155,7 @@ class _songsState extends State<songs> {
         isplay = true;
         iconmu = Icon(
           Icons.pause_circle,
-          size: 40,
+          size: 50,
         );
       });
     } else {
@@ -164,7 +164,7 @@ class _songsState extends State<songs> {
         isplay = false;
         iconmu = Icon(
           Icons.play_circle,
-          size: 40,
+          size: 50,
         );
       });
     }
