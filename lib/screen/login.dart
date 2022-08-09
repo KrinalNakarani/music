@@ -66,19 +66,17 @@ class _Login_ScreenState extends State<Login_Screen> {
                   Expanded(
                     child: Container(
                       height: 50,
-                      child: Expanded(
-                        child: ElevatedButton(
-                          style:
-                              ElevatedButton.styleFrom(primary: Colors.indigo),
-                          onPressed: () async {
-                            share().createSHRP(email.text, pass.text);
-                            Navigator.pushNamed(context, 'home');
-                          },
-                          child: Text(
-                            "Sign up",
-                            style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.bold),
-                          ),
+                      child: ElevatedButton(
+                        style:
+                            ElevatedButton.styleFrom(primary: Colors.indigo),
+                        onPressed: () async {
+                          share().createSHRP(email.text, pass.text);
+                          Navigator.pushNamed(context, 'home');
+                        },
+                        child: Text(
+                          "Sign up",
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.bold),
                         ),
                       ),
                     ),
